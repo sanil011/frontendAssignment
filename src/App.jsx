@@ -1,5 +1,3 @@
-import Header from "./component/header"
-import { useState } from "react";
 import { Alert, Backdrop, CircularProgress, Snackbar } from "@mui/material";
 import Home from "./page/home"
 import History from "./page/history";
@@ -25,7 +23,6 @@ function App() {
             {alert?.msg}
           </Alert>
         </Snackbar>
-        {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/history" element={<History />} />
