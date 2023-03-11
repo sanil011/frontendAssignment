@@ -25,7 +25,7 @@ function App() {
             {alert?.msg}
           </Alert>
         </Snackbar>
-        <Header />
+        {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/history" element={<History />} />

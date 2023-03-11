@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
       <Box display={"flex"} pb={2} justifyContent={"space-between"} sx={{borderBottom:"1px solid lightgrey"}}>
-      <Typography onClick={() => navigate('/')} sx={{cursor:"pointer"}} variant='h4'>CONVIN</Typography>
+      <Typography  sx={{cursor:"pointer"}} variant='h4'>CONVIN</Typography>
       <Button variant='outlined' onClick={() => handleClick()} sx={{ "&:hover": { backgroundColor:"#1876D1",color:"#fff"}}} > {location ? "Home":"History"} </Button>
     </Box>
   )

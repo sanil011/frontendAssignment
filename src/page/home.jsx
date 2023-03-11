@@ -9,6 +9,7 @@ import { useDispatch } from 'react-redux'
 import { appActions } from '../store/appSlice'
 import { useGlobalContext } from '../context/globalContext'
 import Nodata from "../assets/nodata.svg"
+import Header from '../component/header'
 
 
 const Home = () => {
@@ -105,6 +106,7 @@ const Home = () => {
 
     return (
         <Box>
+            <Header/>
             <VideoModal />
             <UpdateModal />
             <AddModal />
