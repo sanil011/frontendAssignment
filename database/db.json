@@ -13,6 +13,12 @@
       "id": 2
     },
     {
+      "name": "Ted talk",
+      "category": "A",
+      "video": "https://www.youtube.com/watch?v=Hu4Yvq-g7_Y&t=167s",
+      "id": 3
+    },
+    {
       "name": "Sharukh Khan",
       "category": "A",
       "video": "https://www.youtube.com/watch?v=0NV1KdWRHck",
@@ -23,6 +29,12 @@
       "category": "A",
       "video": "https://www.youtube.com/watch?v=F4Zu5ZZAG7I",
       "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Johannes Crayden",
+      "category": "B",
+      "video": "https://www.youtube.com/watch?v=E0Q9KnYSVLc"
     },
     {
       "name": "Johnathan Lukash",
@@ -73,16 +85,16 @@
       "video": "https://www.youtube.com/watch?v=cHBaQu2EpFY&t=31s"
     },
     {
-      "name": "Random",
-      "category": "A",
-      "video": "https://www.youtube.com/watch?v=1S5BDozPJ6c",
-      "id": 15
+      "id": 15,
+      "name": "Kali Roomes",
+      "category": "C",
+      "video": "https://www.youtube.com/watch?v=4E2kY4YMsow"
     }
   ],
   "category": [
     {
       "data": {
-        "A": "Education Top",
+        "A": "Education",
         "B": "Computer",
         "C": "Entertainment"
       },
@@ -90,26 +102,6 @@
     }
   ],
   "history": [
-    {
-      "name": "Sharukh Khan",
-      "category": "A",
-      "video": "https://www.youtube.com/watch?v=0NV1KdWRHck",
-      "time": "5:40:31",
-      "id": 2
-    },
-    {
-      "name": "Sharukh Khan",
-      "category": "A",
-      "video": "https://www.youtube.com/watch?v=0NV1KdWRHck",
-      "time": "5:40:43",
-      "id": 3
-    },
-    {
-      "name": "Sharukh Khan",
-      "category": "A",
-      "video": "https://www.youtube.com/watch?v=0NV1KdWRHck",
-      "time": "5:45:24",
-      "id": 4
-    }
+   
   ]
 }
